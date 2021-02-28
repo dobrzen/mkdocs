@@ -1,5 +1,5 @@
 ARG BASE_IMAGE=alpine
-ARG ALPINE_VERSION=3.10
+ARG ALPINE_VERSION=3.13
 FROM ${BASE_IMAGE}:${ALPINE_VERSION}
 LABEL org.label-schema.schema-version="1.0.0" \
     maintainer="an25081981@gmail.com" \
